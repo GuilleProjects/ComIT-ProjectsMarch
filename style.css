@@ -1,0 +1,85 @@
+body {
+    /* background-color: #aa1c34; */
+    background-image: url(https://images5.alphacoders.com/117/1171598.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 10px;
+    font-family: 'Cinzel', serif;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 20px;
+    float: left;
+}
+
+.color {
+    /* transform: rotate(-10deg); */
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    border: 20px groove blue;
+    column-count: 5;
+    column-gap: 15px;
+    column-rule: 10px double black;
+}
+
+.cajaP{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.752);
+    padding: 20px;
+    margin: 20px;
+    padding-left: 40px;
+    border: 20px inset white;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+h2 {
+    writing-mode: vertical-lr;
+    border: 2px solid black;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left: 20px;
+    position: fixed;
+    border-radius: 40px;
+}
+
+.caja {
+    width: 180px;
+    height: 180px;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.cat {
+    -webkit-transition: 2s linear;
+    transition: 2s linear;
+
+}
+
+.cat:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*
+.cat{
+    transform: rotate(90deg); 
+    transform: rotate(-10deg);
+    width: 100px;
+}*/
+
+.imagen1 {
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.899);
+}
